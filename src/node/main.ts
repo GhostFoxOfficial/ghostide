@@ -222,7 +222,7 @@ export const runCodeServer = async (
     })
     // TODO: Could be nice to add wrapping to the logger?
     logger.info(
-      "  The code-server project does not provide stability guarantees or commit to fixing bugs relating to these experimental features. When filing bug reports, please ensure that you can reproduce the bug with all experimental features turned off.",
+      "  The ghostide project does not provide stability guarantees or commit to fixing bugs relating to these experimental features. When filing bug reports, please ensure that you can reproduce the bug with all experimental features turned off.",
     )
   }
 
