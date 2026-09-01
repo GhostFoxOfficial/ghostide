@@ -27,8 +27,8 @@ async function entry(): Promise<void> {
     console.log("code-server", getVersionString())
     console.log("")
     console.log(`Usage: code-server [options] [path]`)
-    console.log(`    - Opening a directory: code-server ./path/to/your/project`)
-    console.log(`    - Opening a saved workspace: code-server ./path/to/your/project.code-workspace`)
+    console.log(`    - Opening a directory: ghostide ./path/to/your/project`)
+    console.log(`    - Opening a saved workspace: ghostide ./path/to/your/project.code-workspace`)
     console.log("")
     console.log("Options")
     optionDescriptions().forEach((description) => {
