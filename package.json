@@ -75,7 +75,7 @@
     "express": "^5.0.1",
     "http-proxy": "^1.18.1",
     "httpolyglot": "^0.1.2",
-    "i18next": "^26.3.1",
+    "i18next": "^26.4.0",
     "js-yaml": "^5.2.3",
     "limiter": "^2.1.0",
     "pem": "^1.14.8",
