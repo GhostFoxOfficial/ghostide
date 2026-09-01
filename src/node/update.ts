@@ -109,7 +109,7 @@ export class UpdateProvider {
           getProxyForUrl: () => httpProxyUri || "",
         })
         const httpx = isHttps ? https : http
-        const client = httpx.get(uri, { headers: { "User-Agent": "code-server" }, agent }, (response) => {
+        const client = httpx.get(uri, { headers: { "User-Agent": "ghostide" }, agent }, (response) => {
           if (!response.statusCode || response.statusCode < 200 || response.statusCode >= 400) {
             response.destroy()
             return reject(new Error(`${uri}: ${response.statusCode || "500"}`))
