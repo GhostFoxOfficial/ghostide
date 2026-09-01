@@ -24,9 +24,9 @@ async function entry(): Promise<void> {
   const args = await setDefaults(cliArgs, configArgs)
 
   if (args.help) {
-    console.log("code-server", getVersionString())
+    console.log("ghostide", getVersionString())
     console.log("")
-    console.log(`Usage: code-server [options] [path]`)
+    console.log(`Usage: ghostide [options] [path]`)
     console.log(`    - Opening a directory: ghostide ./path/to/your/project`)
     console.log(`    - Opening a saved workspace: ghostide ./path/to/your/project.code-workspace`)
     console.log("")
