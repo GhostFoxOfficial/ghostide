@@ -3,11 +3,11 @@
   "license": "MIT",
   "version": "0.0.0",
   "description": "Run VS Code on a remote server.",
-  "homepage": "https://github.com/coder/code-server",
+  "homepage": "https://github.com/GhostFoxOfficial/ghostide",
   "bugs": {
-    "url": "https://github.com/coder/code-server/issues"
+    "url": "https://github.com/GhostFoxOfficial/ghostide/issues"
   },
-  "repository": "https://github.com/coder/code-server",
+  "repository": "https://github.com/GhostFoxOfficial/ghostide",
   "scripts": {
     "clean": "./ci/build/clean.sh",
     "build": "./ci/build/build-code-server.sh",
