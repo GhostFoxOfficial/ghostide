@@ -1,5 +1,5 @@
 {
-  description = "code-server";
+  description = "ghostide";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable-small";
